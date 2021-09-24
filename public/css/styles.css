@@ -1,0 +1,108 @@
+body{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.myjumbotron{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: none;
+    text-align: center;
+    padding: 0;
+}
+.image{
+    height: 90vh;
+    width: 100%;
+}
+span{
+ display: flex;
+ flex-direction: column;
+}
+.bg-img{
+    background-color: #460800;
+    opacity: 0.74;
+    padding: 0% 4%;
+    width: 100%;
+}
+.mycard {
+    border: none; 
+}
+a {
+    color: #fd2306;
+    text-decoration: none;
+    background-color: transparent;
+}
+.monactive{
+    border: 2px solid #fd2306;;
+    color: none;
+    font-weight: none;
+}
+.footer{
+    display: flex;
+    background-color: #460800;
+    width: 100%;
+    margin-top: 7px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    justify-content: space-between;
+    padding: 0% 7%;
+    align-items: center;
+    opacity: 0.95;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    padding-bottom: 0.75rem;
+}
+.item{
+    list-style-type: none;
+}
+.menu-link{
+    padding: 0.5rem;
+}
+.mynav{
+    color: #f66c5a;
+    background-color: #460800;
+    opacity: 0.95;
+    padding: 0% 4%;
+    /* width: 80%; */
+}
+.input-group-prependd {
+    margin-right: -1px;
+    width: 80%;
+    margin-top: 1rem;
+}
+.myrow {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 2rem;
+    justify-content: center;
+}
+.myjumbotron2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: none;
+    padding: 0;
+}
+.mycontainer{
+    margin-top: 4rem;
+    justify-content: center;
+}
+.row_image{
+  position: absolute;
+  right: 30px;
+}
+.myjumbotron2>h1{
+    color: rgba(103, 144, 238, 0.76);
+}
+h1{
+    margin-top: 2rem;
+    font-size: 13;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+form{
+    width: 70%;
+    margin-left: 17rem;
+    margin-top: 2rem;
+    margin-bottom: 11rem;
+}
